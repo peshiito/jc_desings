@@ -180,7 +180,7 @@ ul {
   margin-right: 0;
 }
 
-/* ===== HERO LOGO ANIMACIÓN MEJORADA ===== */
+/* ===== HERO LOGO ANIMACION===== */
 .hero-logo-container {
   margin-bottom: 2rem;
   margin-top: 2.5rem;
@@ -197,7 +197,7 @@ ul {
   filter: blur(2px) grayscale(0.5) brightness(1.2);
 }
 
-/* ===== HERO MEJORADO ===== */
+/* ===== HERO ===== */
 .hero-section {
   background: linear-gradient(135deg, #232323 0%, #181818 100%);
   min-height: 90vh;
@@ -334,7 +334,7 @@ ul {
 .contact-section input,
 .contact-section textarea {
   width: 100%;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0rem 0.7rem 1rem;
   margin-bottom: 1.2rem;
   border: 1.5px solid var(--color-form-border);
   border-radius: 0.8rem;
