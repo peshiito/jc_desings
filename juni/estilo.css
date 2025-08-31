@@ -1,0 +1,278 @@
+.contenido2{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.LOGO-RESPONSIVE{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenido2{
+    background-color: #fff;
+}
+
+.contenido3{
+    background-color: black;
+}
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header{
+    
+    display:flex;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    ;
+}
+
+.logo img{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 70px;
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(129, 129, 129);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction:calc();
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+h1{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1+h1{
+    margin-top: 0px;
+}
+
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+    
+    height: 100px;
+}
+
+.contenedor h2{
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.contenedor2 h2{
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.contenedor h2+h2{
+    margin-top: 0px;
+}
+
+.contenedor2 h2+h2{
+    margin-top: 0px;
+}
+
+.promo p{
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.promo p+p+p{
+    margin: 0px;
+}
+.promo2 p{
+    margin: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.promo2 p+p+p{
+    margin: 0px;
+}
+
+.formulario{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactomm{
+    color: black;
+}
+
+.textof{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+button {
+  width: 110%;
+  background-color: #ffffff;
+  color: #333;
+  border:4px solid #333;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #1e90ff;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #2a2a2a;
+  color: #fff;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.finaly{
+    display: flex;
+    color: #ffffff;
+    background-color: black;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagen-publicidad{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.imagen-publicidad2{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.juajua{
+  background-color: #fff;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+h1 { font-size: 36px; }
+h2 { font-size: 18px; }
+.logo-empresa { font-size: 20px; }
+}
+
+
+@media (max-width: 768px) {
+header { flex-direction: column; }
+h1 { font-size: 32px; padding: 0 10px; }
+h2 { font-size: 18px; }
+.promo p, .promo2 p { font-size: 18px; }
+}
+
+
+@media (max-width: 480px) {
+h1 { font-size: 26px; }
+h2 { font-size: 18px; }
+.promo p, .promo2 p { font-size: 16px; }
+}
